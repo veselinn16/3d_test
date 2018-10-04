@@ -2,16 +2,50 @@
 <html>
 <head>
 	<meta charset="uft-8"/> 
-	<title>Cartoonsmart</title>
+	<title>CSS 3D API cube</title>
 	<link rel="stylesheet" type="text/css" href="style.css"/>
+	<link rel="stylesheet" type="text/css" href="cube.css"/>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
 	<div id="viewport">
 		<div id="cube">
-			<div id="front"></div>
+			<div id="front">
+				<div id="login">
+					<h1>Sign in</h1>
+					<div class="ui_form">
+						<input type="text"/>
+						<span>.</span>
+					</div>
+					<div class="ui_form mt">
+						<input type="password"/>
+						<span>w</span>
+					</div>
+					<a href="#" class="anim" data-anim="right">Login</a>
+				</div>
+			</div>
+			<div id="right">
+				<div class="nav_large">
+					<img src="images/wheat.jpg" width="400" alt="wheat"/>
+					<h1>EWD UI</h1>
+					<p>Open source UI Kit...</p>
+					<a href="#" class="anim" data-anim="back">Find out more...<span>&gt;</span></a>
+					<ul>
+						<li>
+							<p><span>O</span><br/> 1,567</p>
+						</li>
+						<li>
+							<p><span>T</span><br/> 1,900</p>
+						</li>
+						<li>
+							<p><span>S</span><br/> 567</p>
+						</li>
+					</ul>
+				</div>
+			</div>
 			<div id="back"></div>
 			<div id="left"></div>
-			<div id="right"></div>
 			<div id="top"></div>
 			<div id="bottom"></div>
 		</div>
