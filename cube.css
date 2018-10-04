@@ -1217,11 +1217,13 @@ body {
     margin: 0 auto;
     overflow: hidden;
     background: #f4d37a;
+    border-radius: 8px;
     color: white; }
   
   .nav_large img {
     float: left;
-    margin-bottom: -3000%; }
+    margin-bottom: -3000%;
+    border-radius: 8px; }
   
   .nav_large h1 {
     margin: 35px 35px 15px 35px;
@@ -1280,6 +1282,8 @@ body {
     float: left;
     background: #4f3b3b;
     color: white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
     list-style-type: none; }
   
   .nav_large li {
@@ -1655,6 +1659,8 @@ body {
     width: 100% !important;
     height: 100% !important;
     z-index: 1;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
     background: #000000; }
   
   .videoWrapper object,

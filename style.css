@@ -29,8 +29,14 @@ body {
 #cube > div {
   width: 400px;
   height: 400px;
+  border-radius: 8px;
+
   box-sizing: border-box;
   position: absolute;
+}
+
+#cube > div > div {
+  border-radius: 8px;
 }
 
 #cube.right {
